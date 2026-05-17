@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class BinarySearch {
+public class BasicDS {
     // work only on sorted array
     public static int binarySearch(int[] arr, int target) {
         int start =0;

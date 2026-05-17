@@ -96,7 +96,7 @@ public class Pattern {
         //patternL4(10);
         //patternL5(10);
         //patternL6(5);
-        patternL7(8);
+        //patternL7(8);
 
     }
 }
