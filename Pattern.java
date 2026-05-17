@@ -42,11 +42,21 @@ public class Pattern {
             System.out.println();
         }
     }
+
+    public static void patternL5(int r){
+        for(int i =1;i <=r;i++){
+            for(int j= 1; j<=i;j++){
+                System.out.print(j + " ");
+            }
+            System.out.println();
+        }
+    }
     public static void main(String[] args) {
         //patternL1(4, 5);
         //patternL2(7, 10);
         //patternL3(5);
-        patternL4(10);
+        //patternL4(10);
+        patternL5(20);
 
     }
 }
