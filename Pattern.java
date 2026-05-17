@@ -62,6 +62,31 @@ public class Pattern {
             System.out.println();
         }
     }
+
+    public static void patternL7(int r){
+        for(int i =1;i <=r;i++){
+            for(int j= 1; j<=i;j++){
+                System.out.print("*");
+            }
+            for(int j = 1;j<= 2*(r-i); j++){
+                System.out.print(" ");
+            }
+            for(int j = 1; j<=i; j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        for(int i = r; i >=1;i--){
+            for(int j= 1; j<=i;j++){
+                System.out.print("*");
+            }
+            
+            for(int j = 1; j<=i; j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
     public static void main(String[] args) {
         //patternL1(4, 5);
         //patternL2(7, 10);
@@ -69,6 +94,7 @@ public class Pattern {
         //patternL4(10);
         //patternL5(10);
         //patternL6(5);
+        patternL7(4);
 
     }
 }
