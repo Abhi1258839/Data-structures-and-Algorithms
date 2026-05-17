@@ -80,7 +80,9 @@ public class Pattern {
             for(int j= 1; j<=i;j++){
                 System.out.print("*");
             }
-            
+            for(int j = 1;j<= 2*(r-i); j++){
+                System.out.print(" ");
+            }
             for(int j = 1; j<=i; j++){
                 System.out.print("*");
             }
@@ -94,7 +96,7 @@ public class Pattern {
         //patternL4(10);
         //patternL5(10);
         //patternL6(5);
-        patternL7(4);
+        patternL7(3);
 
     }
 }
