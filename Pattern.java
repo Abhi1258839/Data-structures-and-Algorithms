@@ -30,9 +30,23 @@ public class Pattern {
             System.out.println();
         }
     }
+
+    public static void patternL4(int r){
+        for(int i =1;i <=r;i++){
+            for(int j= r-i; j>0;j--){
+                System.out.print(" ");
+            }
+            for(int j = 0; j < i; j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
     public static void main(String[] args) {
         //patternL1(4, 5);
         //patternL2(7, 10);
-        patternL3(5);
+        //patternL3(5);
+        patternL4(10);
+
     }
 }
